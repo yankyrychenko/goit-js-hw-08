@@ -3,12 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- В этот список добавляй элементы галереи -->
     <ul class="gallery js-gallery"></ul>
 
+    <!--
+      Модальное окно для полноразмерного изображения
+      Для того чтобы открыть, необходимо добавить на div.lightbox CSS-класс is-open
+    -->
     <div class="lightbox js-lightbox">
       <div class="lightbox__overlay"></div>
 
@@ -23,7 +29,6 @@
       ></button>
     </div>
 
-    <script src="./js/gallery-items.js" type="module"></script>
-    <script src="./js/main.js" type="module"></script>
+    <script src="./index.js" type="module"></script>
   </body>
 </html>
